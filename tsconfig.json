@@ -8,13 +8,13 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "charset": "utf8",
-    "allowJs": false,
+    "allowJs": true,
     "pretty": true,
     "noEmitOnError": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
     "strictPropertyInitialization": false,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
@@ -26,6 +26,7 @@
   "exclude": [
     "app/public",
     "app/views",
-    "node_modules*"
+    "node_modules*",
+    "coverage"
   ]
 }

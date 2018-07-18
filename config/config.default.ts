@@ -20,6 +20,11 @@ export default (appInfo: EggAppInfo) => {
 
   // add your config here
   config.middleware = [];
-
+  config.cluster = {
+    listen: {
+      port: 18001,
+      hostname: '127.0.0.1',
+    }
+  };
   return config;
 };
